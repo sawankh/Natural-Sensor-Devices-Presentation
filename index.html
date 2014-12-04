@@ -1,0 +1,324 @@
+<!doctype html5>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title> Software de sensores Naturales </title>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<link href="css/impress-demo.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="js/shCore.js"></script>
+        <script type="text/javascript" src="js/shBrushCpp.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/shCoreDefault.css"/>
+        <script type="text/javascript">SyntaxHighlighter.all();</script>
+
+    </head>
+
+	<body class="impress-not-supported">
+    <div class="cloud x1"></div>
+    <!-- Si  el navegador no soporta impress.js se lanza el siguiente mensaje de errore -->
+		<div class="fallback-message">
+			<p>
+				Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.
+			</p>
+			<p>
+				For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
+			</p>
+		</div>
+
+		<div id="impress">
+            <!-- Primera diapositiva Portada -->
+			<div id="init"  class="step" data-x="0" data-y="0"  data-scale="10">
+				<h1> Nuevas posibilidades en el desarrollo de software con sensores naturales </h1>
+				<div id="centrarimagen">
+                    <img id="img1" src="img/leap_motion.jpg" alt="leap_motion" height="169" width="300">
+                    <h2> <span>Gonz&aacute;lez Mart&iacute;n Adri&aacute;n <br>
+                               Kapai Harpalani Sawan Jagdish <br>
+                               Mart&iacute;n Molina Sara
+                        </span>
+                    </h2>
+                </div>
+			</div>
+
+            <!-- Indice -->
+			<div id="introduction" class="step" data-x="15000" data-y="-20000" data-z="0" data-rotate-y="360" data-scale="10">
+				<h1> &Iacute;ndice  </h1>
+                <ul>
+                    <li class="substep">Introducci&oacute;n.</li>
+                    <li class="substep">Leap Motion. </li>
+                    <li class="substep">Kinect.</li>
+                    <li class="substep">Okulus.</li>
+                </ul>
+
+                <div id="gorighttop3">
+					<img id="logo" src="img/logo1.png" alt="logo" height="200" width="200">
+				</div>
+            </div>
+
+            <!-- Primera Diapositiva: Introduccion -->
+            <div id="objective" class="step" data-x="15000" data-y="-20000" data-z="-5000" data-rotate-y="90" data-scale="1">
+				<h2> Introducc&iacute;on:  </h2>
+                <h3> - <span>Nuevo paradigma </span> (NUI natural user interface).</h3>
+                <h3> - <span>Comunicación entre usuario y máquina simplificada.</h3>
+                <div id="tresimages" style="margin-top: 50px;"> 
+                	<img src="img/leap_motion_animation.gif " height="200" width="250"/>
+                	<img src="img/kinect_animation.gif" height="200" width="250"/>
+                	<img src="img/oculus_rift_animation.gif" height="200" width="250"/>
+                </div>
+            </div>
+
+            <!-- Segunda Diapositiva: Leap Motion Intro -->
+			<div id="vanets1"  class="step" data-x="1000" data-y="-19000" data-z="-5000" data-rotate-y="90" data-scale="1">
+				<div id="centrarimagen"> 
+					<h1> Leap Motion </h1>
+					<img id="city" src="img/leap_motion.gif" alt="city" height="500" width="700" style="margin: 30px 0px 20px 0px;">
+				</div>
+				
+            </div>
+
+           
+            <!-- Tercera Diapositiva: Leap Motion -->
+            <div id="vanets2" class="step" data-x="8000" data-y="90000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h2> Leap Motion </h2>
+				<ul>
+                    <li class="substep">Dispositivo de entrada innovador.</li>
+                    <li class="substep"> SDK para desarrolladores.</li>
+                </ul>
+				<div class="notes">
+                    <p>
+                        Las redes VANETs son un caso particular de las redes ad-hoc m´oviles (MANETs).
+                    </p>
+                    <p>
+                    Se basa en la idea de generar una red en la que los nodos son veh´ıculos, y que ´esta sea altamente din´amica.
+                    </p>
+                </div>
+			</div>
+
+
+            <!-- Cubo Giratorio -->
+
+            <div id="propagacion" class="step white" data-x="-35000" data-y="150000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+                <h1> Ejemplo b&aacute;sico en C++ </h1>
+                <div class="syn_wrapper">
+                    <pre style="font-size: 11px" class="brush: cpp">
+                        int main(int argc, char** argv) {
+                            Controller controller;
+
+                            // Keep this process running until Enter is pressed
+                            std::cout << "Press Enter to quit..." << std::endl;
+                            std::cin.get();
+
+                            return 0;
+                        }
+                    </pre>
+                </div>
+                <div class="notes">
+                    <p>
+                        En ocaciones es necesario enviar un mensaje a un veh´ıculo espec´ıﬁco o a un grupo de ellos. Por ejemplo, si un veh´ıculo de emergencia se est´a aproximando un mensaje se debe de enviar a los veh´ıculos que le rodean, para de esta forma facilitar el camino de este veh´ıculo especial. En este caso un protocolo de enritamiento es nesario para reenviar el mensaje a su destino
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="grupos" class="step white" data-x="-30000" data-y="150000" data-z="-5000" data-rotate-y="90" data-rotate-z="0" data-scale="9">
+                <h1> Ejemplo b&aacute;sico en C++ </h1>
+                <div class="syn_wrapper">
+                    <pre style="font-size: 11px" class="brush: cpp">
+                        int main(int argc, char** argv) {
+                            CListener listener;
+                            Controller controller;
+
+                            controller.addListener(listener);
+
+                        // Keep this process running until Enter is pressed
+                        std::cout << "Press Enter to quit..." << std::endl;
+                        std::cin.get();
+
+                        // Remove the sample listener when done
+                        controller.removeListener(listener);
+
+                        return 0;
+                        }
+                    </pre>
+                </div>
+                <div class="notes">
+                    <p>
+                        Este esquema atiende al env´ıo de mensaje s´olo entre veh´ıculos que tienen algunas caracter´ısticas espec´ıﬁcas para participar en la comunicaci´on. Estas caracter´ısticas pueden ser est´aticas, como los veh´ıculos de una organizaci´on, o din´amicos, como los veh´ıculos de un ´area en un espacio determinado de tiempo. Ver ﬁgura 2.3.
+                    </p>
+                </div>
+            </div>
+
+            <div id="balizamiento" class="step white"  data-x="-35000" data-y="150000" data-z="-10000" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+                <h1> Ejemplo b&aacute;sico en C++ </h1>
+                <div class="syn_wrapper">
+                    <pre style="font-size: 11px" class="brush: cpp">
+                        class CListener : public Listener {
+                            public:
+                                virtual void onConnect(const Controller&);
+                                virtual void onFrame(const Controller&);
+                        };
+
+                        void CListener::onConnect(const Controller& controller) {
+                            std::cout << "Connected" << std::endl;
+                            controller.enableGesture(Gesture::TYPE_SWIPE);
+                        }
+                    </pre>
+                </div>
+                <div class="notes">
+                    <p>
+                        Los mensajes baliza se env´ıan peri´odicamente al ´area cercana de veh´ıculos. Los datos enviados suelen ser la velocidad actual, la utilizaci´on de frenos u otros datos referentes al remitente del veh´ıculo. Estos mensajes son utilizados para que los veh´ıculos sepan las condiciones de sus vecinos. Estos mensajes s´olo se env´ıan a los veh´ıculos pero estos no los reenv´ıan. Ver ﬁgura 2.4.
+                    </p>
+                </div>
+            </div>
+
+            <div id="alertas" class="step white" data-x="-40000" data-y="150000" data-z="-5000" data-rotate-y="270" data-rotate-z="0" data-scale="9">
+                <h1> Ejemplo b&aacute;sico en C++ </h1>
+                <div class="syn_wrapper">
+                    <pre style="font-size: 11px" class="brush: cpp">
+
+                    void CListener::onFrame(const Controller& controller) {
+                        const Frame frame = controller.frame();
+                        std::cout << "Frame id:" << frame.id()
+                              << ", hands:" << frame.hands().count()
+                              << ", fingers:" << frame.fingers().count()
+                              << ", gestures:" << frame.gestures().count() << endl;
+                    }
+                    </pre>
+                </div>
+                <div class="notes">
+                    <p>
+                        Estos mensajes se env´an mediante la infraestructura o me- diante veh´ıculos cuando detectan un peligro potencial. Son muy u´tiles para mejorar la seguridad vial. Un ejemplo de este tipo de comunicaci´on es el env´ıo de una aler- ta por la infraestructura, cuando una colisi´on potencial podr´ıa suceder, a todos los veh´ıculos que se aproximen al cruce. Ver ﬁgura 2.5.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Video ejemplo Leap Motion -->
+            <div id="demo_video" class="step" data-x="100" data-y="360000" data-z="-100" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+                <div id="centrarimagen" style="margin-top: 50px;">
+                    <h1> Ejemplo de Leap Motion.</h1>
+                    <iframe width="560" height="315" src="//www.youtube.com/embed/gby6hGZb3ww" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+
+            <!-- Cuarta Diapositiva: Microsoft Kinect 2.0 -->
+    		<div id="comunicacion1" class="step" data-x="35000" data-y="100000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1>Microsoft Kinect 2.0</h1>
+                <ul>
+                    <h2>Cámara time-of-flight (TOF)</h2>
+                    <li class="substep">Gran precisi&oacute;n.</li>
+                    <li class="substep">Mayor resoluci&oacute;n.</li>
+                    <li class="substep">Campo de visión 60% más grande</li>
+                    <li class="substep">Reconoce hasta 6 personas</li>
+                    <h2>Sensor de infrarrojos</h2>
+                    <li class="substep">M&aacute;s preciso y potente</li>
+                </ul>
+            </div>
+
+            <!-- Quinta Diapositiva:  -->
+			<div id="comunicacion2" class="step" data-x="-35000" data-y="100000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> Mejoras en el SDK 2.0 </h1>
+                <h2> - Orientación del cuerpo, manos y uniones mejorada. </h2>
+				<h2> - Soporte para Windows Store. </h2>
+				<h2> - Soporte para Unity. </h2>
+				<h2> - Reconocimiento facial avanzado. </h2>
+                <h2> - Soporte multi-app. </h2>
+			</div>
+
+
+            <!-- Sexta Diapositiva -->
+			<div id="tecnologias" class="step" data-x="4000" data-y="209000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1>Primeros pasos para programar en kinect.</h1>
+					<h2> ¿Qué necesitamos? </h2>
+                    <ul>
+                        <li class="substep">Visual Studio</li>
+                        <li class="substep">Sensor kinect para windows (o adaptador)</li>
+                    </ul>
+				 	<h2>Primeros pasos: </h2>
+                    <ul>
+                        <li class="substep">Instalar el SDK </li>
+                        <li class="substep">Preparar el entorno</li>
+                    </ul>
+         	</div>
+
+            <!-- Septima Diapositva -->
+			<div id="cloud" class="step" data-x="16000" data-y="210000" data-z="0" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+				<div id="centrarimagen">
+				<h1>Oculus Rift</h1>
+				<img id="vanet2" src="img/oculus.jpg" alt="vanet2" height="250" width="500" style="margin-top: 20px;">
+				</div>
+			</div>
+
+
+            <!-- Octava Diapositiva -->
+			<div id="escenario" class="step" data-x="20000" data-y="240000" data-z="0" data-rotate-x="0" data-rotate-z="45" data-rotate-x="90" data-scale="10">
+				<h1> Desarrollar app con Oculus Rift </h1>
+				<div id="centrarimagen">
+					<img id="cruce" src="img/sdk_oculus.png" alt="cruce" height="400" width="500" style="margin: 30px 0px 20px 0px;">
+				</div>
+				
+				
+			</div>
+
+	     <!-- Virtuix Omni -->
+			<div id="crossroad" class="step" data-x="30000" data-y="20000" data-z="0" data-rotate-y="0" data-rotate-z="0"  data-rotate-x="0" data-scale="10">
+				<div id="centrarimagen">
+					<h1> Virtuix Omni </h1>
+					<img id="fondo" src="img/virtuix-omni.png" alt="fondo" height="500" width="750" style="margin-top: 20px;">
+				</div>
+			</div>
+
+            <!-- Video Ejemplo Virtuix Omni -->
+            <div id="web2" class="step" data-x="100" data-y="310000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+                <div id="centrarimagen">
+                <h1> Ejemplo Virtuix Omni. </h1>
+                <iframe width="560" height="315" src="//www.youtube.com/embed/94YJvAOMnYQ" frameborder="0" allowfullscreen></iframe>
+                 </div>
+            </div>
+
+            <!-- Conclusion -->
+            <div id="crossroademergency" class="step" data-x="100" data-y="290000" data-z="0" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+                <div id="centrarimagen">
+                    <h1> Conclution </h1>
+                    <img id="emergencia" src="img/conclution.jpg" alt="emergencia1"  style="margin-top: 80px; margin-right: 200px;">
+                </div>
+            </div>
+
+            <!-- Final -->
+ 			<div id="gracias" class="step" data-x="-9000" data-y="270000" data-z="-180000" data-rotate-z="0" data-rotate-x="0" data-scale="3">
+				<h1> Gracias</h1>
+				<h2> ¿Alguna Pregunta? </h2>
+                <img id="gorighttop5" src="img/logo1.png" alt="ull" height="300" width="300">
+            </div>
+
+
+		</div>	
+
+				
+		<div class="hint">
+			<p>
+				Use a spacebar or arrow keys to navigate
+			</p>
+		</div>
+
+		<script>
+			if ("ontouchstart" in document.documentElement) {
+				document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+			}
+		</script>
+
+		<script src="js/impress.js"></script>
+		<script src="js/impressConsole.js"></script>
+		<script>
+			impress().init();
+            impressConsole().init();
+            impressConsole().open(); // If you want them to open automatically
+
+		</script>
+
+	</body>
+</html>
+
